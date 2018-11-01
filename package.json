@@ -1,0 +1,19 @@
+{
+  "name": "goldenrule",
+  "version": "1.0.0",
+  "description": "a personal css grid and style",
+  "main": "goldenrule.sass",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "style",
+    "grid"
+  ],
+  "author": "olivia py-cz",
+  "license": "ISC"
+}

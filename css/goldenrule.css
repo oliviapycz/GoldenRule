@@ -1,0 +1,155 @@
+.is-full {
+  width: 100%;
+}
+
+.is-four-fifth {
+  width: calc(80vw - 2rem);
+}
+
+.is-three-quarter {
+  width: calc(75vw - 2rem);
+}
+
+.is-two-third {
+  width: calc(66.66vw - 2rem);
+}
+
+.is-half {
+  width: calc(50vw - 2rem);
+}
+
+.is-third {
+  width: calc(33.33vw - 2rem);
+}
+
+.is-quarter {
+  width: calc(25vw - 2rem);
+}
+
+.is-one-fifth {
+  width: calc(20vw - 2rem);
+}
+
+.is-one-eigth {
+  width: calc(16.66vw - 2rem);
+}
+
+/***********
+ * GLOBAL SETTINGS  
+ * ***********/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+@media only screen and (min-device-width: 1441px) {
+  body.is-tv {
+    margin: auto calc((100% - 1440px)/2);
+  }
+}
+
+main {
+  margin: 1vh;
+  min-height: calc(100vh - 10vh);
+}
+
+section {
+  margin: 1vh auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article {
+  display: block;
+  margin: 5px 0;
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  article.is-quarter {
+    width: calc(25vw - 2rem);
+  }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  article.is-third {
+    width: calc(33.33vw - 2rem);
+  }
+}
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+  article.is-half {
+    width: calc(50vw - 2rem);
+  }
+}
+@media only screen and (max-device-width: 425px) {
+  article.is-full {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: lightgrey;
+  width: 100%;
+  min-height: 5vh;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid grey;
+  text-align: center;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.btn__squared {
+  border-radius: 3px;
+}
+.btn__rounded {
+  border-radius: 20px;
+}
+.btn--success {
+  background-color: green;
+  color: white;
+}
+.btn--danger {
+  background-color: red;
+  color: white;
+}
+.btn:hover {
+  background-color: lightgrey;
+  color: white;
+}
+.btn--success:hover {
+  background-color: lightgreen;
+  color: black;
+}
+.btn--danger:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.card {
+  box-shadow: 0 2px 3px grey;
+  padding: 1rem;
+}
+.card__title {
+  box-shadow: 0 1px 2px grey;
+  text-align: center;
+}
+.card__title h1 {
+  margin: inherit;
+  padding: 0.75rem;
+}
+.card__footer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=goldenrule.css.map */

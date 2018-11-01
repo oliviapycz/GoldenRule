@@ -1,0 +1,33 @@
+// MOBILE < 425
+=mobile
+  @media only screen and (max-device-width: $mobile)
+    @content
+
+// TABLET > 425 && < 768
+// ORIENTATION PORTRAIT
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+
+// TABLET > 425 && < 768
+// ORIENTATION LANDSCAPE
+=tablet
+  @media only screen and (min-device-width: $mobile +1) and (max-device-width: $tablet)
+    @content
+
+// LAPTOP > 768 && < 1024
+=laptop
+  @media only screen and (min-device-width: $tablet +1) and (max-device-width: $laptop)
+    @content
+
+// DESKTOP > 1024 && < 1440
+=desktop
+  @media only screen and (min-device-width: $laptop +1) and (max-device-width: $desktop)
+    @content
+
+// TV > 1440
+=tv
+ @media only screen and (min-device-width: $desktop +1)
+   @content
+
+
+
+

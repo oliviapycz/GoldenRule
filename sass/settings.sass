@@ -1,0 +1,60 @@
+// https://zellwk.com/blog/understanding-css-box-sizing/
+// https://zellwk.com/blog/responsive-grid-system/
+  
+  
+// SET UP FOR GOLDENRULE
+
+
+/***********
+  GLOBAL SETTINGS  
+  ***********/
+
+html 
+  box-sizing: border-box
+
+// * {
+//   -webkit-box-sizing: border-box;
+//   -moz-box-sizing: border-box;
+//   box-sizing: border-box;
+// }
+
+*,
+*:before,
+*:after 
+  box-sizing: inherit
+
+body
+  margin: 0
+  +tv
+    &.is-tv
+      margin: auto calc((100% - 1440px)/2)
+
+main
+  margin: 1vh
+  min-height: calc(100vh - 10vh)
+
+section
+  margin: 1vh auto
+  display: flex
+  justify-content: space-around
+  flex-wrap: wrap
+
+article
+  display: block
+  margin: 5px 0
+  +tv
+    &.is-one-eight
+      width: calc(12.5vw - 2rem)
+  +desktop
+    &.is-quarter
+      width: calc(25vw - 2rem)
+  +laptop
+    &.is-third
+      width: calc(33.33vw - 2rem)
+  +tablet
+    &.is-half
+      width: calc(50vw - 2rem)
+  +mobile
+    &.is-full
+      width: 100%
+
