@@ -1,24 +1,32 @@
 .btn 
-    border: 1px solid grey
+    border: 1px solid $grey-dark
+    color: $white
     text-align: center
-    padding: 10px 30px
     cursor: pointer
+    background-color: $grey
     &__squared
         border-radius: 3px
     &__rounded
         border-radius: 20px
+    &__small
+        font-size: $size-small
+        padding: $size-extra-small $size-medium
+    &__medium
+        font-size: $size-medium
+        padding: $size-extra-small $size-large
+    &__large
+        font-size: $size-large
+        padding: $size-extra-small $size-extra-large
     &--success
-        background-color: green
-        color: white
+        background-color: $green
+        color: $white
     &--danger
-        background-color: red
-        color: white
+        background-color: $red
+        color: $white
     &:hover
-        background-color: lightgrey
-        color: white
+        background-color: $grey-dark
+        color: $white
     &--success:hover
-        background-color: lightgreen
-        color: black
+        background-color: $green-dark
     &--danger:hover
-        background-color: yellow
-        color: black
+        background-color: $red-dark

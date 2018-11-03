@@ -1,37 +1,147 @@
-.is-full {
-  width: 100%;
+@media only screen and (min-device-width: 1441px) {
+  .division.is-full-on-tv {
+    width: 100%;
+  }
+  .division.is-four-fifth-on-tv {
+    width: calc(80vw - 2rem);
+  }
+  .division.three-quarter-on-tv {
+    width: calc(75vw - 2rem);
+  }
+  .division.is-two-third-on-tv {
+    width: calc(66.66vw - 2rem);
+  }
+  .division.is-half-on-tv {
+    width: calc(50vw - 2rem);
+  }
+  .division.is-third-on-tv {
+    width: calc(33.33vw - 2rem);
+  }
+  .division.is-quarter-on-tv {
+    width: calc(25vw - 2rem);
+  }
+  .division.is-one-fifth-on-tv {
+    width: calc(20vw - 2rem);
+  }
+  .division.is-one-eight-on-tv {
+    width: calc(12.5vw - 2rem);
+  }
 }
-
-.is-four-fifth {
-  width: calc(80vw - 2rem);
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .division.is-full-on-desktop {
+    width: 100%;
+  }
+  .division.is-four-fifth-on-desktop {
+    width: calc(80vw - 2rem);
+  }
+  .division.three-quarter-on-desktop {
+    width: calc(75vw - 2rem);
+  }
+  .division.is-two-third-on-desktop {
+    width: calc(66.66vw - 2rem);
+  }
+  .division.is-half-on-desktop {
+    width: calc(50vw - 2rem);
+  }
+  .division.is-third-on-desktop {
+    width: calc(33.33vw - 2rem);
+  }
+  .division.is-quarter-on-desktop {
+    width: calc(25vw - 2rem);
+  }
+  .division.is-one-fifth-on-desktop {
+    width: calc(20vw - 2rem);
+  }
+  .division.is-one-eight-on-desktop {
+    width: calc(12.5vw - 2rem);
+  }
 }
-
-.is-three-quarter {
-  width: calc(75vw - 2rem);
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .division.is-full-on-laptop {
+    width: 100%;
+  }
+  .division.is-four-fifth-on-laptop {
+    width: calc(80vw - 2rem);
+  }
+  .division.three-quarter-on-laptop {
+    width: calc(75vw - 2rem);
+  }
+  .division.is-two-third-on-laptop {
+    width: calc(66.66vw - 2rem);
+  }
+  .division.is-half-on-laptop {
+    width: calc(50vw - 2rem);
+  }
+  .division.is-third-on-laptop {
+    width: calc(33.33vw - 2rem);
+  }
+  .division.is-quarter-on-laptop {
+    width: calc(25vw - 2rem);
+  }
+  .division.is-one-fifth-on-laptop {
+    width: calc(20vw - 2rem);
+  }
+  .division.is-one-eight-on-laptop {
+    width: calc(12.5vw - 2rem);
+  }
 }
-
-.is-two-third {
-  width: calc(66.66vw - 2rem);
+@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
+  .division.is-full-on-tablet {
+    width: 100%;
+  }
+  .division.is-four-fifth-on-tablet {
+    width: calc(80vw - 2rem);
+  }
+  .division.three-quarter-on-tablet {
+    width: calc(75vw - 2rem);
+  }
+  .division.is-two-third-on-tablet {
+    width: calc(66.66vw - 2rem);
+  }
+  .division.is-half-on-tablet {
+    width: calc(50vw - 2rem);
+  }
+  .division.is-third-on-tablet {
+    width: calc(33.33vw - 2rem);
+  }
+  .division.is-quarter-on-tablet {
+    width: calc(25vw - 2rem);
+  }
+  .division.is-one-fifth-on-tablet {
+    width: calc(20vw - 2rem);
+  }
+  .division.is-one-eight-on-tablet {
+    width: calc(12.5vw - 2rem);
+  }
 }
-
-.is-half {
-  width: calc(50vw - 2rem);
-}
-
-.is-third {
-  width: calc(33.33vw - 2rem);
-}
-
-.is-quarter {
-  width: calc(25vw - 2rem);
-}
-
-.is-one-fifth {
-  width: calc(20vw - 2rem);
-}
-
-.is-one-eigth {
-  width: calc(16.66vw - 2rem);
+@media only screen and (max-device-width: 425px) {
+  .division.is-full-on-mobile {
+    width: 100%;
+  }
+  .division.is-four-fifth-on-mobile {
+    width: calc(80vw - 2rem);
+  }
+  .division.three-quarter-on-mobile {
+    width: calc(75vw - 2rem);
+  }
+  .division.is-two-third-on-mobile {
+    width: calc(66.66vw - 2rem);
+  }
+  .division.is-half-on-mobile {
+    width: calc(50vw - 2rem);
+  }
+  .division.is-third-on-mobile {
+    width: calc(33.33vw - 2rem);
+  }
+  .division.is-quarter-on-mobile {
+    width: calc(25vw - 2rem);
+  }
+  .division.is-one-fifth-on-mobile {
+    width: calc(20vw - 2rem);
+  }
+  .division.is-one-eight-on-mobile {
+    width: calc(12.5vw - 2rem);
+  }
 }
 
 /***********
@@ -72,26 +182,6 @@ article {
   display: block;
   margin: 5px 0;
 }
-@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-  article.is-quarter {
-    width: calc(25vw - 2rem);
-  }
-}
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
-  article.is-third {
-    width: calc(33.33vw - 2rem);
-  }
-}
-@media only screen and (min-device-width: 426px) and (max-device-width: 768px) {
-  article.is-half {
-    width: calc(50vw - 2rem);
-  }
-}
-@media only screen and (max-device-width: 425px) {
-  article.is-full {
-    width: 100%;
-  }
-}
 
 .footer {
   background-color: lightgrey;
@@ -104,16 +194,29 @@ article {
 }
 
 .btn {
-  border: 1px solid grey;
+  border: 1px solid #545454;
+  color: white;
   text-align: center;
-  padding: 10px 30px;
   cursor: pointer;
+  background-color: #7a7a7a;
 }
 .btn__squared {
   border-radius: 3px;
 }
 .btn__rounded {
   border-radius: 20px;
+}
+.btn__small {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+}
+.btn__medium {
+  font-size: 1.5rem;
+  padding: 0.75rem 2rem;
+}
+.btn__large {
+  font-size: 2rem;
+  padding: 0.75rem 3rem;
 }
 .btn--success {
   background-color: green;
@@ -124,16 +227,14 @@ article {
   color: white;
 }
 .btn:hover {
-  background-color: lightgrey;
+  background-color: #545454;
   color: white;
 }
 .btn--success:hover {
-  background-color: lightgreen;
-  color: black;
+  background-color: darkgreen;
 }
 .btn--danger:hover {
-  background-color: yellow;
-  color: black;
+  background-color: #e30000;
 }
 
 .card {
