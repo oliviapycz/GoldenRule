@@ -184,9 +184,14 @@ article {
 }
 
 .footer {
-  background-color: lightgrey;
+  background-color: #b5b5b5;
   width: 100%;
+  position: relative;
   min-height: 5vh;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .copyright {
