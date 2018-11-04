@@ -1,12 +1,30 @@
 .footer
     background-color: $grey-light
+    padding: 0 30px
     width: 100%
     position: relative
     min-height: 5vh
     bottom: 0
     left: 0
     display: flex
-    justify-content: space-around
-
-.copyright
-    text-align: center
+    justify-content: space-between
+    align-items: center
+    flex-direction: row
+    .copyright
+        text-align: center
+        align-self: flex-end
+    .sitemap
+    .legal-notice
+    .socialmedia
+        p
+            margin: 1rem 0 0 0
+        &_icons
+            display: flex
+            flex-direction: row
+            ul
+                display: flex
+                width: 100%
+                padding: inherit
+                flex-wrap: wrap
+            li
+                margin-bottom: 0.5rem
