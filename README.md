@@ -4,7 +4,7 @@
 ## TO COMPILE
 
 ``` bash
-# run the sass executable to compile .sass and .scss files to .css
-$ sass goldenrule.sass css/goldenrule.css
+# to watch the changes on sass to compile to css
+$ npm start
 
 ```
